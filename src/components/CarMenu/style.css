@@ -1,0 +1,12 @@
+aside {
+  width: 20vw;
+  height: 90vh;
+  background-color: white;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
