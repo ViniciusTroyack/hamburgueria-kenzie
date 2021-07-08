@@ -1,11 +1,6 @@
 import "./style.css";
 
 function CarMenu({ currentSale, cartTotal, setCartTotal }) {
-  setCartTotal(
-    currentSale.reduce((acc, item) => {
-      return item.price + acc;
-    }, 0)
-  );
   return (
     <aside>
       <div>

@@ -28,6 +28,7 @@ function App() {
     const addCart = products.find((produto) => produto.id === productId);
     if (!currentSale.includes(addCart)) {
       setCurrentSale([...currentSale, addCart]);
+      setCartTotal(cartTotal + addCart.price);
     }
   }
 

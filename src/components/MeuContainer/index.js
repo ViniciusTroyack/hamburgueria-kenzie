@@ -23,7 +23,7 @@ function MeuContainer({
           onChange={(event) => setUserInput(event.target.value)}
         />
         <button type="button" onClick={() => showProducts(userInput)}>
-          Adicionar Tarefa
+          Pesquisar
         </button>
       </form>
     </>

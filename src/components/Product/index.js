@@ -9,7 +9,7 @@ function Product({ products, handleClick }) {
             <li>{produto.name}</li>
             <li>Categoria: {produto.category}</li>
             <li>Preço: {produto.price}</li>
-            <button onClick={() => handleClick(index)}>
+            <button onClick={() => handleClick(index + 1)}>
               Adicionar ao Carrinho
             </button>
           </ul>
