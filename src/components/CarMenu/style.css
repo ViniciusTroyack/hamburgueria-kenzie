@@ -15,5 +15,6 @@ aside {
 @media only screen and (max-width: 768px) {
   aside {
     width: 90vw;
+    padding-bottom: 35vh ;
   }
 }
