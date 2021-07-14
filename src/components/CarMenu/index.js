@@ -5,6 +5,9 @@ function CarMenu({ currentSale, cartTotal, setCartTotal }) {
     <aside>
       <div>
         <h3>Carrinho de Compras</h3>
+        <div className="subTotal">
+          <h4>Total:{cartTotal.toFixed(2)}</h4>
+        </div>
         <ul>
           {currentSale.map((produto, index) => (
             <li key={index}>
@@ -16,9 +19,6 @@ function CarMenu({ currentSale, cartTotal, setCartTotal }) {
             </li>
           ))}
         </ul>
-      </div>
-      <div className="subTotal">
-        <h4>Total:{cartTotal.toFixed(2)}</h4>
       </div>
     </aside>
   );
